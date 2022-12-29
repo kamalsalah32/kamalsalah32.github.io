@@ -2,7 +2,7 @@ const PersonalPage = () => {
   return (
     <div>
       <h1>Kamal Selim</h1>
-      <p>Main Page</p>
+      <p>Secondary Page</p>
     </div>
   );
 };
