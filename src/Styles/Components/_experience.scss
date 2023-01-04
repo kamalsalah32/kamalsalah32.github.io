@@ -1,0 +1,77 @@
+.experience-item {
+  &__title {
+    display: inline-block;
+
+    &--main {
+      display: block;
+      font-size: 3rem;
+      color: $light_green;
+      margin: 0rem 2rem;
+    }
+
+    &--sub {
+      display: inline-block;
+      font-size: 2rem;
+      color: $light_green;
+      margin: 0 2rem;
+    }
+  }
+
+  &__inga {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    height: 35vh;
+    transform: translateY(-4rem);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    // outline: 0.5rem solid white;
+    // box-shadow: 0 1rem 1rem rgba(#000, 0.2);
+    background-color: $inga_dark_green;
+    transition: all 0.2s;
+
+    &:hover {
+      transform: translateY(-4.3rem) scale(1.01);
+      box-shadow: 0 1rem 2rem rgba(#000, 0.2);
+    }
+
+    &--main-info {
+      display: flex;
+      align-content: center;
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+      border-bottom: 0.1rem solid white;
+    }
+
+    &--logo {
+      display: inline-block;
+      width: 15rem;
+      height: 8rem;
+      background-size: cover;
+      background-image: url(../Assets/Images/inga_logo_no_background.png);
+    }
+
+    &--period {
+      display: inline-block;
+      font-size: 1.6rem;
+      color: white;
+    }
+
+    & ul {
+      list-style: none;
+      font-size: 2rem;
+      padding: 2rem;
+      color: white;
+    }
+
+    & li {
+      margin-bottom: 1rem;
+    }
+
+    &--text-to-highlight {
+      font-style: italic;
+      margin: 0 0.5rem;
+      color: rgb(133, 207, 141);
+    }
+  }
+}

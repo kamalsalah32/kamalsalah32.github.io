@@ -1,0 +1,102 @@
+.education-item {
+  &__title {
+    display: inline-block;
+
+    &--main {
+      display: block;
+      font-size: 3rem;
+      color: $dark_green;
+      margin: 0rem 2rem;
+    }
+
+    &--sub {
+      display: inline-block;
+      font-size: 2rem;
+      color: $dark_green;
+      margin: 0 2rem;
+    }
+  }
+
+  &__TUM {
+    display: flex;
+    align-content: center;
+    width: 50%;
+    height: 14vh;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    // outline: 0.5rem solid white;
+    // box-shadow: 0 1rem 1rem rgba(#000, 0.2);
+    background-color: $light_green;
+    transition: all 0.2s;
+
+    &:hover {
+      transform: translateY(-0.3rem) scale(1.01);
+      box-shadow: 0 1rem 2rem rgba(#000, 0.2);
+    }
+
+    &--period {
+      display: inline-block;
+      font-size: 1.6rem;
+      color: white;
+    }
+  }
+
+  &__GUC {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    height: 35vh;
+    padding: 2rem;
+    background-color: $card_yellow;
+    border-radius: 0.5rem;
+    // box-shadow: 0 1rem 1rem rgba(#000, 0.2);
+    // outline: 0.5rem solid white;
+    margin-left: auto;
+    transform: translateY(-2rem);
+    transition: all 0.2s;
+
+    &--main-info {
+      display: flex;
+      align-content: center;
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+      border-bottom: 0.1rem solid black;
+    }
+
+    &:hover {
+      transform: translateY(-2.3rem) scale(1.01);
+      box-shadow: 0 1rem 2rem rgba(#000, 0.2);
+    }
+
+    &--logo {
+      display: inline-block;
+      width: 8rem;
+      height: 8rem;
+      background-size: cover;
+      background-image: url(../Assets/Images/guc_logo.png);
+    }
+
+    &--period {
+      display: inline-block;
+      font-size: 1.6rem;
+      color: rgb(140, 75, 10);
+    }
+
+    & ul {
+      list-style: none;
+      font-size: 2rem;
+      padding: 2rem;
+      color: $dark_green;
+    }
+
+    & li {
+      margin-bottom: 1rem;
+    }
+
+    &--text-to-highlight {
+      font-style: italic;
+      margin: 0 0.5rem;
+      color: rgb(140, 75, 10);
+    }
+  }
+}

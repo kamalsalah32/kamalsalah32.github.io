@@ -1,0 +1,13 @@
+.margin {
+  &__left {
+    &--2 {
+      margin-left: 2rem;
+    }
+  }
+
+  &__right {
+    &--2 {
+      margin-right: 2rem;
+    }
+  }
+}

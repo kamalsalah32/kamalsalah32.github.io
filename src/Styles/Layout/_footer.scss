@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-between;
+  height: 18vh;
+  margin: 3rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: $dark_color;
+  //   background-image: linear-gradient(to bottom, $dark_color, #1d1107);
+
+  & a {
+    display: inline-block;
+    height: $contact_icon_size;
+    width: $contact_icon_size;
+    margin: 1rem;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

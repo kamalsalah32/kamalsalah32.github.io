@@ -1,9 +1,15 @@
+import React from 'react';
+import Header from '../Components/PersonalPage/Header';
+import Main from '../Components/PersonalPage/Main';
+import Footer from '../Components/PersonalPage/Footer';
+
 const PersonalPage = () => {
   return (
-    <div>
-      <h1>Kamal Selim</h1>
-      <p>Main Page</p>
-    </div>
+    <React.Fragment>
+      <Header />
+      <Main />
+      <Footer />
+    </React.Fragment>
   );
 };
 
